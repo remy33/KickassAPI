@@ -22,9 +22,9 @@ import re
 # CONSTANTS
 class BASE(object):
     domain='kat.cr'
-    SEARCH = "http://"+domain+"/usearch/"
-    LATEST = "http://"+domain+"/new/"
-    USER = "http://"+domain+"/user/"
+    SEARCH = "https://"+domain+"/usearch/"
+    LATEST = "https://"+domain+"/new/"
+    USER = "https://"+domain+"/user/"
 
 
 class CATEGORY(object):
